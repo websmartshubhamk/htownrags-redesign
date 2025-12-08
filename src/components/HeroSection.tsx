@@ -17,10 +17,13 @@ export default function HeroSection() {
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="mx-auto max-w-[1920px] px-6 text-center lg:px-12">
           <h1 className="mb-4 font-display text-5xl font-bold text-white drop-shadow-2xl lg:text-7xl">
-            Authentic Vintage Clothing
+            H-Town Rags
           </h1>
-          <p className="mb-8 font-heading text-xl font-light text-white drop-shadow-lg lg:text-2xl">
-            Discover timeless pieces from iconic brands
+          <p className="mb-4 font-heading text-xl font-light text-white drop-shadow-lg lg:text-2xl">
+            THE HEART OF VINTAGE & SECOND-HAND CLOTHING
+          </p>
+          <p className="mb-8 font-body text-lg text-white/90 drop-shadow-lg">
+            Hand-picked vintage clothing from across the globe
           </p>
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Link
