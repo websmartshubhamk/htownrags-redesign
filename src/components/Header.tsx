@@ -18,14 +18,14 @@ export default function Header() {
           </Link>
 
           <nav className="hidden items-center gap-8 lg:flex">
-            <Link href="/shop" className="font-heading text-sm font-medium uppercase tracking-wide text-primary-dark transition-colors hover:text-primary-red">
-              Shop
-            </Link>
-            <Link href="/brands" className="font-heading text-sm font-medium uppercase tracking-wide text-primary-dark transition-colors hover:text-primary-red">
-              Brands
+            <Link href="/" className="font-heading text-sm font-medium uppercase tracking-wide text-primary-dark transition-colors hover:text-primary-red">
+              Home
             </Link>
             <Link href="/about" className="font-heading text-sm font-medium uppercase tracking-wide text-primary-dark transition-colors hover:text-primary-red">
               About
+            </Link>
+            <Link href="/brands" className="font-heading text-sm font-medium uppercase tracking-wide text-primary-dark transition-colors hover:text-primary-red">
+              Brands
             </Link>
             <Link href="/gallery" className="font-heading text-sm font-medium uppercase tracking-wide text-primary-dark transition-colors hover:text-primary-red">
               Gallery
