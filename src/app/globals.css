@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: 'Inter';
+    --font-montserrat: 'Montserrat';
+    --font-playfair: 'Playfair Display';
+    --font-bebas: 'Bebas Neue';
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-primary-cream text-primary-dark;
+  }
+}
