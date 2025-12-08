@@ -9,7 +9,8 @@
       "Bash(npm install)",
       "Bash(cp:*)",
       "Bash(npm run dev:*)",
-      "WebFetch(domain:htownragsvintageclothing.co.uk)"
+      "WebFetch(domain:htownragsvintageclothing.co.uk)",
+      "Bash(git push:*)"
     ],
     "deny": []
   }
