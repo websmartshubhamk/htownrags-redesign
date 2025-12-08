@@ -47,7 +47,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="relative">
-              <div className="aspect-[4/5] overflow-hidden rounded-lg bg-neutral-100">
+              <div className="aspect-[4/5] overflow-hidden rounded-lg bg-gray-100">
                 <Image
                   src="/images/gallery/store-photo-01.jpg"
                   alt="H-Town Rags store interior"
@@ -72,7 +72,7 @@ export default function AboutPage() {
             {/* Rob's Section */}
             <div className="text-center lg:text-left">
               <div className="mb-8 flex justify-center lg:justify-start">
-                <div className="aspect-square w-48 overflow-hidden rounded-full bg-neutral-100">
+                <div className="aspect-square w-48 overflow-hidden rounded-full bg-gray-100">
                   <Image
                     src="/images/gallery/store-photo-02.jpg"
                     alt="Rob Hague - Founder"
@@ -100,7 +100,7 @@ export default function AboutPage() {
             {/* Charlotte's Section */}
             <div className="text-center lg:text-left">
               <div className="mb-8 flex justify-center lg:justify-start">
-                <div className="aspect-square w-48 overflow-hidden rounded-full bg-neutral-100">
+                <div className="aspect-square w-48 overflow-hidden rounded-full bg-gray-100">
                   <Image
                     src="/images/gallery/store-photo-03.jpg"
                     alt="Charlotte Oaten - Co-Owner"
@@ -131,13 +131,13 @@ export default function AboutPage() {
       </section>
 
       {/* Our Mission Section */}
-      <section className="bg-primary-dark py-16 text-white lg:py-24">
+      <section className="bg-[#1A1A1A] py-16 text-white lg:py-24">
         <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
           <div className="text-center">
             <h2 className="mb-6 font-display text-4xl font-bold lg:text-5xl">
               H-TOWN RAGS
             </h2>
-            <p className="mb-8 font-heading text-xl font-light text-accent-gold lg:text-2xl">
+            <p className="mb-8 font-heading text-xl font-light text-[#D4A574] lg:text-2xl">
               THE HEART OF VINTAGE & SECOND-HAND CLOTHING
             </p>
             <div className="mx-auto max-w-4xl">
@@ -168,7 +168,7 @@ export default function AboutPage() {
           </h2>
           <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
             {Array.from({ length: 8 }, (_, i) => (
-              <div key={i} className="aspect-square overflow-hidden rounded-lg bg-neutral-100">
+              <div key={i} className="aspect-square overflow-hidden rounded-lg bg-gray-100">
                 <Image
                   src={`/images/gallery/store-photo-0${i + 1}.jpg`}
                   alt={`H-Town Rags store ${i + 1}`}
