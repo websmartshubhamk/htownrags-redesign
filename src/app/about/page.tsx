@@ -89,10 +89,10 @@ export default function AboutPage() {
                 Founder & Co-Owner
               </p>
               <p className="font-body text-lg leading-relaxed text-neutral-warm">
-                Rob's love of music, culture and clothing began at a very early age when he discovered 
+                Rob&apos;s love of music, culture and clothing began at a very early age when he discovered 
                 punk rock and he never strayed far from his interests in his career. Rob went on to work 
                 for many years with heritage brand clothing in the original Millets store and his own 
-                vintage store, the original 'Our Favourite Shop' and also worked for several years in 
+                vintage store, the original &apos;Our Favourite Shop&apos; and also worked for several years in 
                 the music industry drumming for bands and touring the world.
               </p>
             </div>
@@ -148,7 +148,7 @@ export default function AboutPage() {
                 We hand-pick all of our stock for H-Town Rags, this ensures we get the highest quality 
                 and most unique pieces. We source primarily from the UK, USA and Italy, however we have 
                 clothing from all around the world! This means we always have a large variety of styles 
-                from different era's hanging on our rails.
+                from different eras hanging on our rails.
               </p>
               <p className="mt-4 font-body text-lg leading-relaxed text-neutral-300">
                 We also work closely with our suppliers to ensure that we can get hold of in demand items. 

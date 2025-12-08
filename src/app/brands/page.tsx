@@ -116,7 +116,7 @@ export default function BrandsPage() {
                 </p>
                 <p className="font-body text-lg leading-relaxed text-neutral-warm">
                   Week to week, season to season, our stock is kept up to date, but as you are aware, 
-                  it's always sunny somewhere, so if you need an Aloha shirt in December, we can help you!
+                  it&apos;s always sunny somewhere, so if you need an Aloha shirt in December, we can help you!
                 </p>
                 <p className="font-body text-lg leading-relaxed text-neutral-warm">
                   New stock is posted daily on our social media, so be sure to give us a follow.
@@ -165,11 +165,11 @@ export default function BrandsPage() {
       <section className="bg-primary-dark py-16 text-white lg:py-24">
         <div className="mx-auto max-w-[800px] px-6 text-center lg:px-12">
           <h2 className="mb-6 font-display text-4xl font-bold lg:text-5xl">
-            Can't Find What You're Looking For?
+            Can&apos;t Find What You&apos;re Looking For?
           </h2>
           <p className="mb-8 font-body text-lg leading-relaxed text-neutral-300">
-            We're always sourcing new pieces and working with our suppliers to get in-demand items. 
-            Get in touch and let us know what you're after!
+            We&apos;re always sourcing new pieces and working with our suppliers to get in-demand items. 
+            Get in touch and let us know what you&apos;re after!
           </p>
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a

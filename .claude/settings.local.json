@@ -10,7 +10,8 @@
       "Bash(cp:*)",
       "Bash(npm run dev:*)",
       "WebFetch(domain:htownragsvintageclothing.co.uk)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(npm run build:*)"
     ],
     "deny": []
   }

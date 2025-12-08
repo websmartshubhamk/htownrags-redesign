@@ -17,7 +17,7 @@ export default function ContactPage() {
               Contact Us
             </h1>
             <p className="mx-auto max-w-3xl font-heading text-xl leading-relaxed text-neutral-warm lg:text-2xl">
-              We'd love to hear from you! Whether you have questions about our stock, 
+              We&apos;d love to hear from you! Whether you have questions about our stock, 
               need styling advice, or want to visit our store.
             </p>
           </div>
@@ -264,7 +264,7 @@ export default function ContactPage() {
           </div>
           <div className="mt-8 text-center">
             <p className="mb-4 font-body text-lg text-neutral-warm">
-              We're located in the heart of Hitchin's historic town centre, just a short walk from the train station.
+              We&apos;re located in the heart of Hitchin&apos;s historic town centre, just a short walk from the train station.
             </p>
             <a
               href="https://maps.google.com/?q=The+Carling+Building+Coopers+Yard+Hitchin+SG5+1AR"
