@@ -68,7 +68,7 @@ export default function FeaturedProducts() {
           <h2 className="mb-4 font-display text-4xl font-bold text-primary-dark lg:text-5xl">
             Featured Products
           </h2>
-          <p className="font-heading text-lg text-neutral-cool">
+          <p className="font-heading text-lg text-[#64748B]">
             Hand-picked vintage pieces, updated weekly
           </p>
         </div>

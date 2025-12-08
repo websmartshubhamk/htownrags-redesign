@@ -64,7 +64,7 @@ export default function AboutPage() {
       {/* Meet The Team Section */}
       <section className="bg-white py-16 lg:py-24">
         <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <h2 className="mb-16 text-center font-display text-4xl font-bold text-primary-dark lg:text-5xl">
+          <h2 className="mb-16 text-center font-display text-4xl font-bold text-[#1A1A1A] lg:text-5xl">
             Meet The Team
           </h2>
 
@@ -82,13 +82,13 @@ export default function AboutPage() {
                   />
                 </div>
               </div>
-              <h3 className="mb-2 font-heading text-2xl font-bold text-primary-dark">
+              <h3 className="mb-2 font-heading text-2xl font-bold text-[#1A1A1A]">
                 Rob Hague
               </h3>
-              <p className="mb-4 font-heading text-lg font-medium text-primary-red">
+              <p className="mb-4 font-heading text-lg font-medium text-[#E31C45]">
                 Founder & Co-Owner
               </p>
-              <p className="font-body text-lg leading-relaxed text-neutral-warm">
+              <p className="font-body text-lg leading-relaxed text-[#8B7355]">
                 Rob&apos;s love of music, culture and clothing began at a very early age when he discovered 
                 punk rock and he never strayed far from his interests in his career. Rob went on to work 
                 for many years with heritage brand clothing in the original Millets store and his own 
@@ -110,13 +110,13 @@ export default function AboutPage() {
                   />
                 </div>
               </div>
-              <h3 className="mb-2 font-heading text-2xl font-bold text-primary-dark">
+              <h3 className="mb-2 font-heading text-2xl font-bold text-[#1A1A1A]">
                 Charlotte Oaten
               </h3>
-              <p className="mb-4 font-heading text-lg font-medium text-primary-red">
+              <p className="mb-4 font-heading text-lg font-medium text-[#E31C45]">
                 Co-Owner & Creative Director
               </p>
-              <p className="font-body text-lg leading-relaxed text-neutral-warm">
+              <p className="font-body text-lg leading-relaxed text-[#8B7355]">
                 Charlotte has previously worked in styling, luxury fashion and retail and saw the 
                 opportunity to translate the positive aspects of these environments into H-Town Rags. 
                 Everything from spotting quality garments and fabrics, to seeing the importance of a 
@@ -141,16 +141,16 @@ export default function AboutPage() {
               THE HEART OF VINTAGE & SECOND-HAND CLOTHING
             </p>
             <div className="mx-auto max-w-4xl">
-              <h3 className="mb-6 font-heading text-2xl font-semibold text-primary-red">
+              <h3 className="mb-6 font-heading text-2xl font-semibold text-[#E31C45]">
                 HAND-PICKED VINTAGE CLOTHING FROM ACROSS THE GLOBE
               </h3>
-              <p className="font-body text-lg leading-relaxed text-neutral-300">
+              <p className="font-body text-lg leading-relaxed text-[#D1D5DB]">
                 We hand-pick all of our stock for H-Town Rags, this ensures we get the highest quality 
                 and most unique pieces. We source primarily from the UK, USA and Italy, however we have 
                 clothing from all around the world! This means we always have a large variety of styles 
                 from different eras hanging on our rails.
               </p>
-              <p className="mt-4 font-body text-lg leading-relaxed text-neutral-300">
+              <p className="mt-4 font-body text-lg leading-relaxed text-[#D1D5DB]">
                 We also work closely with our suppliers to ensure that we can get hold of in demand items. 
                 We have an extensive range of everything from Denim, Workwear, Womenswear, Sportswear, 
                 Americana, Tees and Sweats, the list goes on…!
@@ -163,7 +163,7 @@ export default function AboutPage() {
       {/* Gallery Section */}
       <section className="py-16 lg:py-24">
         <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <h2 className="mb-12 text-center font-display text-4xl font-bold text-primary-dark">
+          <h2 className="mb-12 text-center font-display text-4xl font-bold text-[#1A1A1A]">
             Our Store
           </h2>
           <div className="grid grid-cols-2 gap-4 md:grid-cols-4">

@@ -10,7 +10,7 @@ export default function StoreInfo() {
             <h2 className="mb-6 font-display text-4xl font-bold text-primary-dark lg:text-5xl">
               Visit Our Store
             </h2>
-            <p className="mb-8 font-heading text-xl text-neutral-warm">
+            <p className="mb-8 font-heading text-xl text-[#8B7355]">
               Experience H-Town Rags in person at our Hitchin location
             </p>
             
@@ -25,7 +25,7 @@ export default function StoreInfo() {
                   <h3 className="mb-2 font-heading text-lg font-bold text-primary-dark">
                     Our Location
                   </h3>
-                  <address className="not-italic font-body leading-relaxed text-neutral-warm">
+                  <address className="not-italic font-body leading-relaxed text-[#8B7355]">
                     The Carling Building<br />
                     Coopers Yard<br />
                     Hitchin, Hertfordshire<br />
@@ -44,7 +44,7 @@ export default function StoreInfo() {
                   <h3 className="mb-2 font-heading text-lg font-bold text-primary-dark">
                     Opening Hours
                   </h3>
-                  <div className="font-body leading-relaxed text-neutral-warm">
+                  <div className="font-body leading-relaxed text-[#8B7355]">
                     <p>Monday - Saturday: 10:00 - 17:00</p>
                     <p>Sunday: 11:00 - 16:00</p>
                   </div>
@@ -61,7 +61,7 @@ export default function StoreInfo() {
                   <h3 className="mb-2 font-heading text-lg font-bold text-primary-dark">
                     Get In Touch
                   </h3>
-                  <div className="font-body leading-relaxed text-neutral-warm">
+                  <div className="font-body leading-relaxed text-[#8B7355]">
                     <p>
                       <a href="tel:01462453189" className="hover:text-primary-red transition-colors">
                         01462 453189

@@ -20,16 +20,16 @@ export default function BrandStory() {
               HAND-PICKED VINTAGE CLOTHING FROM ACROSS THE GLOBE
             </h3>
             <div className="space-y-4">
-              <p className="font-body text-lg leading-relaxed text-neutral-warm">
+              <p className="font-body text-lg leading-relaxed text-[#8B7355]">
                 We hand-pick all of our stock for H-Town Rags, this ensures we get the highest quality 
                 and most unique pieces. We source primarily from the UK, USA and Italy, however we have 
                 clothing from all around the world!
               </p>
-              <p className="font-body text-lg leading-relaxed text-neutral-warm">
+              <p className="font-body text-lg leading-relaxed text-[#8B7355]">
                 This means we always have a large variety of styles from different eras hanging on our rails. 
                 We also work closely with our suppliers to ensure that we can get hold of in demand items.
               </p>
-              <p className="font-body text-lg leading-relaxed text-neutral-warm">
+              <p className="font-body text-lg leading-relaxed text-[#8B7355]">
                 We have an extensive range of everything from Denim, Workwear, Womenswear, Sportswear, 
                 Americana, Tees and Sweats, the list goes on…!
               </p>

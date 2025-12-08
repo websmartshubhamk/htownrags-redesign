@@ -48,7 +48,7 @@ export default function FeaturedCategories() {
           <h2 className="mb-4 font-display text-4xl font-bold text-primary-dark lg:text-5xl">
             Browse by Category
           </h2>
-          <p className="font-heading text-lg text-neutral-cool">
+          <p className="font-heading text-lg text-[#64748B]">
             Discover our carefully curated vintage collections
           </p>
         </div>

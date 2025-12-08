@@ -61,4 +61,13 @@ To be configured during Farmer setup for proper persona access control and secur
 
 ---
 
+## Project Details
+
+**Git Repository**: https://github.com/proje/htownrags-redesign
+**Vercel Deployment**: https://htownrags-redesign.vercel.app/
+**Vercel Project ID**: prj_pwpPICZiT2OU0jw3wdaowMKJOMUS
+**Developer**: Farmer (Claude Code Instance)
+
+---
+
 **Note**: This is the Master configuration. Farmer will receive separate CLAUDE.md with development-specific settings.

@@ -68,7 +68,7 @@ const categories = ["All", "Style Guide", "Brand Spotlight", "Sustainability", "
 
 export default function BlogPage() {
   return (
-    <div className="min-h-screen bg-primary-cream">
+    <div className="min-h-screen bg-[#FAF7F0]">
       {/* Hero Section */}
       <section className="relative py-24 lg:py-32">
         <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
@@ -76,7 +76,7 @@ export default function BlogPage() {
             <h1 className="mb-6 font-display text-5xl font-bold text-primary-dark lg:text-7xl">
               Blog
             </h1>
-            <p className="mx-auto max-w-3xl font-heading text-xl leading-relaxed text-neutral-warm lg:text-2xl">
+            <p className="mx-auto max-w-3xl font-heading text-xl leading-relaxed text-[#8B7355] lg:text-2xl">
               Vintage fashion insights, styling tips, brand stories and updates from the 
               world of H-Town Rags.
             </p>
@@ -128,11 +128,11 @@ export default function BlogPage() {
                 <h2 className="mb-4 font-display text-3xl font-bold text-primary-dark lg:text-4xl">
                   {blogPosts[0].title}
                 </h2>
-                <p className="mb-6 font-body text-lg leading-relaxed text-neutral-warm">
+                <p className="mb-6 font-body text-lg leading-relaxed text-[#8B7355]">
                   {blogPosts[0].excerpt}
                 </p>
                 <div className="flex items-center justify-between">
-                  <div className="text-sm text-neutral-cool">
+                  <div className="text-sm text-[#64748B]">
                     <span className="font-medium">{blogPosts[0].category}</span> • {blogPosts[0].date}
                   </div>
                   <span className="font-heading text-sm font-medium uppercase tracking-wide text-primary-red group-hover:underline">
@@ -165,17 +165,17 @@ export default function BlogPage() {
                   />
                 </div>
                 <div className="p-6">
-                  <span className="mb-3 inline-block rounded-full bg-accent-teal px-3 py-1 font-heading text-xs font-medium uppercase tracking-wide text-white">
+                  <span className="mb-3 inline-block rounded-full bg-[#2C7A7B] px-3 py-1 font-heading text-xs font-medium uppercase tracking-wide text-white">
                     {post.category}
                   </span>
                   <h3 className="mb-3 font-heading text-xl font-bold text-primary-dark group-hover:text-primary-red transition-colors">
                     {post.title}
                   </h3>
-                  <p className="mb-4 font-body text-sm leading-relaxed text-neutral-warm">
+                  <p className="mb-4 font-body text-sm leading-relaxed text-[#8B7355]">
                     {post.excerpt}
                   </p>
                   <div className="flex items-center justify-between">
-                    <span className="font-body text-xs text-neutral-cool">
+                    <span className="font-body text-xs text-[#64748B]">
                       {post.date}
                     </span>
                     <span className="font-heading text-xs font-medium uppercase tracking-wide text-primary-red group-hover:underline">

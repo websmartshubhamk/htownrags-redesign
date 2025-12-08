@@ -51,7 +51,7 @@ const brandCategories = [
 
 export default function BrandsPage() {
   return (
-    <div className="min-h-screen bg-primary-cream">
+    <div className="min-h-screen bg-[#FAF7F0]">
       {/* Hero Section */}
       <section className="relative py-24 lg:py-32">
         <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
@@ -59,7 +59,7 @@ export default function BrandsPage() {
             <h1 className="mb-6 font-display text-5xl font-bold text-primary-dark lg:text-7xl">
               Our Brands
             </h1>
-            <p className="mx-auto max-w-3xl font-heading text-xl leading-relaxed text-neutral-warm lg:text-2xl">
+            <p className="mx-auto max-w-3xl font-heading text-xl leading-relaxed text-[#8B7355] lg:text-2xl">
               At H-Town Rags, we stock a wide range of second hand vintage clothing from some 
               of the most sought after brands.
             </p>
@@ -79,7 +79,7 @@ export default function BrandsPage() {
                 <h2 className="mb-4 font-display text-2xl font-bold text-primary-dark lg:text-3xl">
                   {category.title}
                 </h2>
-                <p className="mb-6 font-body text-lg text-neutral-warm">
+                <p className="mb-6 font-body text-lg text-[#8B7355]">
                   {category.description}
                 </p>
                 <div className="flex flex-wrap gap-3">
@@ -110,15 +110,15 @@ export default function BrandsPage() {
                 FRESH STOCK GOING OUT EACH AND EVERY DAY
               </p>
               <div className="space-y-4">
-                <p className="font-body text-lg leading-relaxed text-neutral-warm">
+                <p className="font-body text-lg leading-relaxed text-[#8B7355]">
                   We believe in refreshing our stock regularly, new stock is prepared daily to ensure 
                   that however frequently you visit us, there will always be something new to see!
                 </p>
-                <p className="font-body text-lg leading-relaxed text-neutral-warm">
+                <p className="font-body text-lg leading-relaxed text-[#8B7355]">
                   Week to week, season to season, our stock is kept up to date, but as you are aware, 
                   it&apos;s always sunny somewhere, so if you need an Aloha shirt in December, we can help you!
                 </p>
-                <p className="font-body text-lg leading-relaxed text-neutral-warm">
+                <p className="font-body text-lg leading-relaxed text-[#8B7355]">
                   New stock is posted daily on our social media, so be sure to give us a follow.
                 </p>
               </div>

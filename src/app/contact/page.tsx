@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-primary-cream">
+    <div className="min-h-screen bg-[#FAF7F0]">
       {/* Hero Section */}
       <section className="relative py-24 lg:py-32">
         <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
@@ -16,7 +16,7 @@ export default function ContactPage() {
             <h1 className="mb-6 font-display text-5xl font-bold text-primary-dark lg:text-7xl">
               Contact Us
             </h1>
-            <p className="mx-auto max-w-3xl font-heading text-xl leading-relaxed text-neutral-warm lg:text-2xl">
+            <p className="mx-auto max-w-3xl font-heading text-xl leading-relaxed text-[#8B7355] lg:text-2xl">
               We&apos;d love to hear from you! Whether you have questions about our stock, 
               need styling advice, or want to visit our store.
             </p>
@@ -46,7 +46,7 @@ export default function ContactPage() {
                     <h3 className="mb-2 font-heading text-xl font-bold text-primary-dark">
                       Visit Our Store
                     </h3>
-                    <address className="not-italic font-body text-lg leading-relaxed text-neutral-warm">
+                    <address className="not-italic font-body text-lg leading-relaxed text-[#8B7355]">
                       The Carling Building<br />
                       Coopers Yard<br />
                       Hitchin, Hertfordshire<br />
@@ -57,7 +57,7 @@ export default function ContactPage() {
 
                 {/* Phone */}
                 <div className="flex items-start gap-4">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-accent-teal">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#2C7A7B]">
                     <svg className="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                     </svg>
@@ -68,7 +68,7 @@ export default function ContactPage() {
                     </h3>
                     <a 
                       href="tel:01462453189"
-                      className="font-body text-lg text-neutral-warm transition-colors hover:text-primary-red"
+                      className="font-body text-lg text-[#8B7355] transition-colors hover:text-[#E31C45]"
                     >
                       01462 453189
                     </a>
@@ -93,7 +93,7 @@ export default function ContactPage() {
                     </h3>
                     <a 
                       href="mailto:team@htownragsvintageclothing.co.uk"
-                      className="break-all font-body text-lg text-neutral-warm transition-colors hover:text-primary-red"
+                      className="break-all font-body text-lg text-[#8B7355] transition-colors hover:text-[#E31C45]"
                     >
                       team@htownragsvintageclothing.co.uk
                     </a>
@@ -119,7 +119,7 @@ export default function ContactPage() {
                         href="https://instagram.com/htownrags" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="font-body text-lg text-neutral-warm transition-colors hover:text-primary-red"
+                        className="font-body text-lg text-[#8B7355] transition-colors hover:text-[#E31C45]"
                       >
                         Instagram
                       </a>
@@ -128,7 +128,7 @@ export default function ContactPage() {
                         href="https://facebook.com/htownrags" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="font-body text-lg text-neutral-warm transition-colors hover:text-primary-red"
+                        className="font-body text-lg text-[#8B7355] transition-colors hover:text-[#E31C45]"
                       >
                         Facebook
                       </a>
@@ -263,14 +263,14 @@ export default function ContactPage() {
             </div>
           </div>
           <div className="mt-8 text-center">
-            <p className="mb-4 font-body text-lg text-neutral-warm">
+            <p className="mb-4 font-body text-lg text-[#8B7355]">
               We&apos;re located in the heart of Hitchin&apos;s historic town centre, just a short walk from the train station.
             </p>
             <a
               href="https://maps.google.com/?q=The+Carling+Building+Coopers+Yard+Hitchin+SG5+1AR"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center rounded-md bg-accent-teal px-6 py-3 font-heading text-sm font-semibold uppercase tracking-wide text-white transition-all hover:bg-accent-teal/90 hover:shadow-lg"
+              className="inline-flex items-center justify-center rounded-md bg-[#2C7A7B] px-6 py-3 font-heading text-sm font-semibold uppercase tracking-wide text-white transition-all hover:bg-[#2C7A7B]/90 hover:shadow-lg"
             >
               Get Directions
             </a>
