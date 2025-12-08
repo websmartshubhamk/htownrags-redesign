@@ -8,16 +8,16 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-primary-cream">
+    <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-24 lg:py-32">
+      <section className="relative bg-[#FAF7F0] py-24 lg:py-32">
         <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
           <div className="text-center">
-            <h1 className="mb-6 font-display text-5xl font-bold text-primary-dark lg:text-7xl">
+            <h1 className="mb-6 font-display text-5xl font-bold text-[#1A1A1A] lg:text-7xl">
               About Us
             </h1>
             <div className="mx-auto max-w-4xl">
-              <p className="mb-8 font-heading text-2xl font-light leading-relaxed text-primary-red lg:text-3xl">
+              <p className="mb-8 font-heading text-2xl font-light leading-relaxed text-[#E31C45] lg:text-3xl">
                 H-TOWN RAGS WAS BORN OUT OF A LOVE OF VINTAGE CLOTHING, MUSIC AND CULTURE, COMMUNITY IS AT THE HEART OF EVERYTHING WE DO.
               </p>
             </div>
@@ -31,15 +31,15 @@ export default function AboutPage() {
           <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
             <div>
               <div className="mb-8">
-                <h2 className="mb-6 font-display text-4xl font-bold text-primary-dark">
+                <h2 className="mb-6 font-display text-4xl font-bold text-[#1A1A1A]">
                   Our Story
                 </h2>
-                <p className="font-body text-lg leading-relaxed text-neutral-warm">
+                <p className="font-body text-lg leading-relaxed text-[#8B7355]">
                   The business was started by Rob Hague, after selling online for some years he was presented 
                   with the opportunity of a retail space. The business started to grow and Charlotte Oaten 
                   joined shortly after. Naturally, working together, far more becomes possible!
                 </p>
-                <p className="mt-4 font-body text-lg leading-relaxed text-neutral-warm">
+                <p className="mt-4 font-body text-lg leading-relaxed text-[#8B7355]">
                   As the business has grown, so has the team, they are absolutely what makes H-Town Rags so 
                   special. Each member of staff is just as passionate about the business, its stock, providing 
                   seamless customer service and creating the most friendly atmosphere. The Rags crew are amazing!
