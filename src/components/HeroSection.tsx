@@ -27,10 +27,10 @@ export default function HeroSection() {
           </p>
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Link
-              href="/shop"
+              href="/gallery"
               className="inline-flex items-center justify-center rounded-md bg-accent-teal px-8 py-3 font-heading text-sm font-semibold uppercase tracking-wide text-white transition-all hover:bg-accent-teal/90 hover:shadow-lg"
             >
-              Shop Collection
+              View Collection
             </Link>
             <Link
               href="/about"

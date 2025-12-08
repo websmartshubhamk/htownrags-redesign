@@ -46,7 +46,7 @@ export default function FeaturedCategories() {
       <div className="mx-auto max-w-[1400px] px-6 lg:px-12">
         <div className="mb-12 text-center">
           <h2 className="mb-4 font-display text-4xl font-bold text-primary-dark lg:text-5xl">
-            Shop by Category
+            Browse by Category
           </h2>
           <p className="font-heading text-lg text-neutral-cool">
             Discover our carefully curated vintage collections

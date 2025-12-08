@@ -12,9 +12,9 @@ export default function Footer() {
               <Image
                 src="/logos/h-town-rags-logo.svg"
                 alt="H-Town Rags"
-                width={160}
-                height={50}
-                className="h-10 w-auto brightness-0 invert"
+                width={200}
+                height={65}
+                className="h-16 w-auto brightness-0 invert"
               />
             </Link>
             <p className="font-body text-sm leading-relaxed text-neutral-300">
@@ -118,7 +118,7 @@ export default function Footer() {
             {/* Social Media Links */}
             <div className="flex gap-3">
               <a 
-                href="https://facebook.com/htownrags" 
+                href="https://www.facebook.com/htownrags/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-all hover:bg-primary-red"
@@ -129,7 +129,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a 
-                href="https://instagram.com/htownrags" 
+                href="https://www.instagram.com/htownragsuk/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-all hover:bg-primary-red"
@@ -140,7 +140,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a 
-                href="https://linkedin.com/company/htownrags" 
+                href="https://www.linkedin.com/company/h-town-rags/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-all hover:bg-primary-red"
@@ -151,7 +151,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a 
-                href="https://g.page/htownrags" 
+                href="https://goo.gl/maps/bbJ5Q8G8ucSPXUhT9" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-all hover:bg-primary-red"
@@ -169,20 +169,9 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-white/10">
         <div className="mx-auto max-w-[1920px] px-6 py-6 lg:px-12">
-          <div className="flex flex-col items-center justify-between gap-4 text-center md:flex-row md:text-left">
+          <div className="text-center">
             <p className="font-body text-sm text-neutral-400">
               Copyright © 2025 H-Town Rags. All rights reserved.
-            </p>
-            <p className="font-body text-sm text-neutral-400">
-              Website Design by{" "}
-              <a 
-                href="https://duodigital.co.uk" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-white transition-colors hover:text-primary-red"
-              >
-                DUO Digital
-              </a>
             </p>
           </div>
         </div>
