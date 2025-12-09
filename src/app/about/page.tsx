@@ -12,8 +12,8 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="relative h-[500px] w-full overflow-hidden lg:h-[600px]">
         <Image
-          src="/images/gallery/store-photo-01.jpg"
-          alt="H-Town Rags Store Interior"
+          src="/images/gallery/store-photo-05.jpg"
+          alt="H-Town Rags Vintage Collection"
           fill
           className="object-cover"
           priority
