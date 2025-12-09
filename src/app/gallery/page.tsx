@@ -21,15 +21,25 @@ const storeGallery = Array.from({ length: 8 }, (_, i) => ({
 
 export default function GalleryPage() {
   return (
-    <div className="min-h-screen bg-primary-cream">
+    <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-24 lg:py-32">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <div className="text-center">
-            <h1 className="mb-6 font-display text-5xl font-bold text-primary-dark lg:text-7xl">
+      <section className="relative h-[500px] w-full overflow-hidden lg:h-[600px]">
+        <Image
+          src="/images/gallery/store-photo-08.jpg"
+          alt="H-Town Rags Gallery"
+          fill
+          className="object-cover"
+          priority
+          sizes="100vw"
+          quality={90}
+        />
+        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="mx-auto max-w-[1200px] px-6 text-center lg:px-12">
+            <h1 className="mb-6 font-display text-5xl font-bold text-white drop-shadow-2xl lg:text-7xl">
               Gallery
             </h1>
-            <p className="mx-auto max-w-3xl font-heading text-xl leading-relaxed text-neutral-warm lg:text-2xl">
+            <p className="mx-auto max-w-3xl font-heading text-xl leading-relaxed text-white drop-shadow-lg lg:text-2xl">
               Explore our carefully curated collection of vintage clothing and get a behind-the-scenes 
               look at our Hitchin store.
             </p>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Metadata } from "next";
 import StoreInfo from "@/components/StoreInfo";
 
@@ -8,15 +9,25 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-[#FAF7F0]">
+    <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-24 lg:py-32">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <div className="text-center">
-            <h1 className="mb-6 font-display text-5xl font-bold text-primary-dark lg:text-7xl">
+      <section className="relative h-[500px] w-full overflow-hidden lg:h-[600px]">
+        <Image
+          src="/images/gallery/store-photo-03.jpg"
+          alt="Contact H-Town Rags"
+          fill
+          className="object-cover"
+          priority
+          sizes="100vw"
+          quality={90}
+        />
+        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="mx-auto max-w-[1200px] px-6 text-center lg:px-12">
+            <h1 className="mb-6 font-display text-5xl font-bold text-white drop-shadow-2xl lg:text-7xl">
               Contact Us
             </h1>
-            <p className="mx-auto max-w-3xl font-heading text-xl leading-relaxed text-[#8B7355] lg:text-2xl">
+            <p className="mx-auto max-w-3xl font-heading text-xl leading-relaxed text-white drop-shadow-lg lg:text-2xl">
               We&apos;d love to hear from you! Whether you have questions about our stock, 
               need styling advice, or want to visit our store.
             </p>
