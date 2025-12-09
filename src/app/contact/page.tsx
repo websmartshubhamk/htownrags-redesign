@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { Metadata } from "next";
+import StoreInfo from "@/components/StoreInfo";
 
 export const metadata: Metadata = {
   title: "Contact Us - H-Town Rags | Get in Touch with Our Hitchin Store",
@@ -72,7 +73,7 @@ export default function ContactPage() {
                     >
                       01462 453189
                     </a>
-                    <p className="mt-1 font-body text-sm text-neutral-cool">
+                    <p className="mt-1 font-body text-sm text-[#64748B]">
                       Monday - Saturday: 10:00 - 17:00<br />
                       Sunday: 11:00 - 16:00
                     </p>
@@ -97,7 +98,7 @@ export default function ContactPage() {
                     >
                       team@htownragsvintageclothing.co.uk
                     </a>
-                    <p className="mt-1 font-body text-sm text-neutral-cool">
+                    <p className="mt-1 font-body text-sm text-[#64748B]">
                       We aim to respond within 24 hours
                     </p>
                   </div>
@@ -105,7 +106,7 @@ export default function ContactPage() {
 
                 {/* Social Media */}
                 <div className="flex items-start gap-4">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-neutral-warm">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#8B7355]">
                     <svg className="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
                     </svg>
@@ -123,7 +124,7 @@ export default function ContactPage() {
                       >
                         Instagram
                       </a>
-                      <span className="text-neutral-cool">•</span>
+                      <span className="text-[#64748B]">•</span>
                       <a 
                         href="https://facebook.com/htownrags" 
                         target="_blank" 
@@ -133,7 +134,7 @@ export default function ContactPage() {
                         Facebook
                       </a>
                     </div>
-                    <p className="mt-1 font-body text-sm text-neutral-cool">
+                    <p className="mt-1 font-body text-sm text-[#64748B]">
                       Daily updates with new arrivals
                     </p>
                   </div>
@@ -155,7 +156,7 @@ export default function ContactPage() {
                     <input
                       type="text"
                       required
-                      className="w-full rounded-md border border-neutral-300 px-4 py-3 font-body transition-colors focus:border-primary-red focus:outline-none"
+                      className="w-full rounded-md border border-[#D1D5DB] px-4 py-3 font-body transition-colors focus:border-[#E31C45] focus:outline-none"
                     />
                   </div>
                   <div>
@@ -165,7 +166,7 @@ export default function ContactPage() {
                     <input
                       type="text"
                       required
-                      className="w-full rounded-md border border-neutral-300 px-4 py-3 font-body transition-colors focus:border-primary-red focus:outline-none"
+                      className="w-full rounded-md border border-[#D1D5DB] px-4 py-3 font-body transition-colors focus:border-[#E31C45] focus:outline-none"
                     />
                   </div>
                 </div>
@@ -176,7 +177,7 @@ export default function ContactPage() {
                   <input
                     type="email"
                     required
-                    className="w-full rounded-md border border-neutral-300 px-4 py-3 font-body transition-colors focus:border-primary-red focus:outline-none"
+                    className="w-full rounded-md border border-[#D1D5DB] px-4 py-3 font-body transition-colors focus:border-[#E31C45] focus:outline-none"
                   />
                 </div>
                 <div>
@@ -185,7 +186,7 @@ export default function ContactPage() {
                   </label>
                   <input
                     type="tel"
-                    className="w-full rounded-md border border-neutral-300 px-4 py-3 font-body transition-colors focus:border-primary-red focus:outline-none"
+                    className="w-full rounded-md border border-[#D1D5DB] px-4 py-3 font-body transition-colors focus:border-[#E31C45] focus:outline-none"
                   />
                 </div>
                 <div>
@@ -194,7 +195,7 @@ export default function ContactPage() {
                   </label>
                   <select
                     required
-                    className="w-full rounded-md border border-neutral-300 px-4 py-3 font-body transition-colors focus:border-primary-red focus:outline-none"
+                    className="w-full rounded-md border border-[#D1D5DB] px-4 py-3 font-body transition-colors focus:border-[#E31C45] focus:outline-none"
                   >
                     <option value="">Select a subject</option>
                     <option value="general">General Enquiry</option>
@@ -211,7 +212,7 @@ export default function ContactPage() {
                   <textarea
                     required
                     rows={5}
-                    className="w-full rounded-md border border-neutral-300 px-4 py-3 font-body transition-colors focus:border-primary-red focus:outline-none"
+                    className="w-full rounded-md border border-[#D1D5DB] px-4 py-3 font-body transition-colors focus:border-[#E31C45] focus:outline-none"
                     placeholder="Tell us how we can help you..."
                   ></textarea>
                 </div>
@@ -227,27 +228,8 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Store Photos */}
-      <section className="bg-white py-16 lg:py-24">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <h2 className="mb-12 text-center font-display text-4xl font-bold text-primary-dark">
-            Visit Our Hitchin Store
-          </h2>
-          <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
-            {Array.from({ length: 8 }, (_, i) => (
-              <div key={i} className="aspect-square overflow-hidden rounded-lg bg-neutral-100">
-                <Image
-                  src={`/images/gallery/store-photo-0${i + 1}.jpg`}
-                  alt={`H-Town Rags store interior ${i + 1}`}
-                  fill
-                  className="object-cover transition-transform duration-300 hover:scale-105"
-                  sizes="(max-width: 768px) 50vw, 25vw"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* Visit Our Store Section */}
+      <StoreInfo />
 
       {/* Map Section */}
       <section className="py-16 lg:py-24">
@@ -256,8 +238,8 @@ export default function ContactPage() {
             Find Us in Hitchin
           </h2>
           <div className="overflow-hidden rounded-lg">
-            <div className="aspect-video bg-neutral-200 flex items-center justify-center">
-              <p className="font-heading text-lg text-neutral-600">
+            <div className="aspect-video bg-[#E5E7EB] flex items-center justify-center">
+              <p className="font-heading text-lg text-[#4B5563]">
                 Interactive map would be embedded here
               </p>
             </div>

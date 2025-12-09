@@ -4,7 +4,6 @@ import FeaturedProducts from "@/components/FeaturedProducts";
 import BrandLogos from "@/components/BrandLogos";
 import BrandStory from "@/components/BrandStory";
 import NewsletterSignup from "@/components/NewsletterSignup";
-import StoreInfo from "@/components/StoreInfo";
 
 export default function Home() {
   return (
@@ -15,7 +14,6 @@ export default function Home() {
       <FeaturedProducts />
       <BrandStory />
       <NewsletterSignup />
-      <StoreInfo />
     </>
   );
 }
