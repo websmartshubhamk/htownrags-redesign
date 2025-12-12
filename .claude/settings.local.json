@@ -30,7 +30,10 @@
       "WebFetch(domain:about.nike.com)",
       "Bash(dir)",
       "Bash(del *.png)",
-      "Bash(git rm:*)"
+      "Bash(git rm:*)",
+      "Bash(true)",
+      "Bash(python scripts/fetch-remaining-logos.py:*)",
+      "Bash(npm run typecheck:*)"
     ],
     "deny": []
   }

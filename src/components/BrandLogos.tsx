@@ -2,7 +2,24 @@ import Image from 'next/image';
 import styles from './BrandLogos.module.css';
 
 // Brand data with real logos where available, text for others
-const brands = [
+type BrandImage = {
+  name: string;
+  isImage: true;
+  logo: string;
+  width: number;
+  height: number;
+};
+
+type BrandText = {
+  name: string;
+  isImage: false;
+  text: string;
+  style: string;
+};
+
+type Brand = BrandImage | BrandText;
+
+const brands: Brand[] = [
   { 
     name: "Nike", 
     logo: "/images/brands/nike.png",
@@ -19,21 +36,18 @@ const brands = [
   },
   { 
     name: "The North Face", 
-    logo: null,
     isImage: false,
     text: "THE NORTH FACE",
     style: "font-bold text-3xl tracking-wide"
   },
   { 
     name: "Champion", 
-    logo: null,
     isImage: false,
     text: "Champion",
     style: "font-bold text-4xl italic"
   },
   { 
     name: "Guess", 
-    logo: null,
     isImage: false,
     text: "GUESS",
     style: "font-bold text-5xl tracking-wider"
