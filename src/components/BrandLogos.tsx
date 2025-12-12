@@ -1,12 +1,13 @@
+import Image from 'next/image';
 import styles from './BrandLogos.module.css';
 
 const brands = [
-  { name: "GUESS", style: "font-bold text-[#E31C45] text-3xl md:text-4xl" },
-  { name: "HARLEY-DAVIDSON", style: "font-bold text-[#FF6600] text-2xl md:text-3xl" },
-  { name: "NIKE", style: "font-bold text-[#1A1A1A] text-3xl md:text-4xl italic" },
-  { name: "Dickies", style: "font-bold text-[#0055A4] text-3xl md:text-4xl" },
-  { name: "THE NORTH FACE", style: "font-bold text-[#1A1A1A] text-2xl md:text-3xl" },
-  { name: "Champion", style: "font-bold text-[#003399] text-3xl md:text-4xl italic" },
+  { name: "Guess", logo: "/images/brands/guess.png", width: 120, height: 60 },
+  { name: "Harley Davidson", logo: "/images/brands/harley-davidson.png", width: 180, height: 60 },
+  { name: "Nike", logo: "/images/brands/nike.png", width: 100, height: 60 },
+  { name: "Dickies", logo: "/images/brands/dickies.png", width: 140, height: 60 },
+  { name: "The North Face", logo: "/images/brands/north-face.png", width: 160, height: 60 },
+  { name: "Champion", logo: "/images/brands/champion.png", width: 140, height: 60 },
 ];
 
 export default function BrandLogos() {
@@ -21,9 +22,14 @@ export default function BrandLogos() {
                 key={`${brand.name}-${index}`}
                 className="flex min-w-[180px] items-center justify-center md:min-w-[250px]"
               >
-                <span className={`font-heading ${brand.style} whitespace-nowrap`}>
-                  {brand.name}
-                </span>
+                <Image
+                  src={brand.logo}
+                  alt={`${brand.name} logo`}
+                  width={brand.width}
+                  height={brand.height}
+                  className="h-12 w-auto object-contain grayscale opacity-80 transition-all hover:grayscale-0 hover:opacity-100 md:h-16"
+                  priority={index < 6}
+                />
               </div>
             ))}
           </div>
