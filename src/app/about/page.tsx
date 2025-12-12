@@ -10,14 +10,24 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-[#FAF7F0] py-24 lg:py-32">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <div className="text-center">
-            <h1 className="mb-6 font-display text-5xl font-bold text-[#1A1A1A] lg:text-7xl">
+      <section className="relative h-[500px] w-full overflow-hidden lg:h-[70vh]">
+        <Image
+          src="/images/about/hero-image.jpg"
+          alt="H-Town Rags Store Interior"
+          fill
+          className="object-cover"
+          priority
+          quality={90}
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-black/60" />
+        
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="mx-auto max-w-[1200px] px-6 text-center lg:px-12">
+            <h1 className="mb-6 font-display text-5xl font-bold text-white drop-shadow-2xl lg:text-7xl">
               About Us
             </h1>
             <div className="mx-auto max-w-4xl">
-              <p className="mb-8 font-heading text-2xl font-light leading-relaxed text-[#E31C45] lg:text-3xl">
+              <p className="mb-8 font-heading text-2xl font-light leading-relaxed text-white drop-shadow-lg lg:text-3xl">
                 H-TOWN RAGS WAS BORN OUT OF A LOVE OF VINTAGE CLOTHING, MUSIC AND CULTURE, COMMUNITY IS AT THE HEART OF EVERYTHING WE DO.
               </p>
             </div>
