@@ -29,7 +29,8 @@
       "Bash(find:*)",
       "WebFetch(domain:about.nike.com)",
       "Bash(dir)",
-      "Bash(del *.png)"
+      "Bash(del *.png)",
+      "Bash(git rm:*)"
     ],
     "deny": []
   }
