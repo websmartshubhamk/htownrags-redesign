@@ -170,27 +170,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Gallery Section */}
-      <section className="py-16 lg:py-24">
-        <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
-          <h2 className="mb-12 text-center font-display text-4xl font-bold text-[#1A1A1A]">
-            Our Store
-          </h2>
-          <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
-            {Array.from({ length: 8 }, (_, i) => (
-              <div key={i} className="aspect-square overflow-hidden rounded-lg bg-gray-100">
-                <Image
-                  src={`/images/gallery/store-photo-0${i + 1}.jpg`}
-                  alt={`H-Town Rags store ${i + 1}`}
-                  fill
-                  className="object-cover transition-transform duration-300 hover:scale-105"
-                  sizes="(max-width: 768px) 50vw, 25vw"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
