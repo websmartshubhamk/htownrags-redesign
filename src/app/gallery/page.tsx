@@ -23,13 +23,13 @@ export default function GalleryPage() {
   return (
     <div className="min-h-screen bg-[#FAF7F0]">
       {/* Hero Section */}
-      <section className="relative py-24 lg:py-32">
+      <section className="relative pt-[6rem] pb-16 lg:pt-[7rem] lg:pb-24">
         <div className="mx-auto max-w-[1200px] px-6 lg:px-12">
           <div className="text-center">
-            <h1 className="mb-6 font-display text-5xl font-bold text-primary-dark lg:text-7xl">
+            <h1 className="mb-6 font-display text-4xl font-bold text-primary-dark sm:text-5xl lg:text-7xl">
               Gallery
             </h1>
-            <p className="mx-auto max-w-3xl font-heading text-xl leading-relaxed text-[#8B7355] lg:text-2xl">
+            <p className="mx-auto max-w-3xl font-heading text-lg leading-relaxed text-[#8B7355] sm:text-xl lg:text-2xl">
               Explore our carefully curated collection of vintage clothing and get a behind-the-scenes 
               look at our Hitchin store.
             </p>
