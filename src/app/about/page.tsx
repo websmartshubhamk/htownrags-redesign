@@ -10,24 +10,24 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[500px] w-full overflow-hidden lg:h-[70vh]">
+      <section className="relative h-[calc(100vh-5rem)] min-h-[500px] w-full overflow-hidden lg:h-[calc(100vh-6rem)] lg:min-h-[600px]">
         <Image
           src="/images/about/hero-image.jpg"
           alt="H-Town Rags Store Interior"
           fill
-          className="object-cover"
+          className="object-cover object-center"
           priority
           quality={90}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-black/60" />
         
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="mx-auto max-w-[1200px] px-6 text-center lg:px-12">
-            <h1 className="mb-6 font-display text-5xl font-bold text-white drop-shadow-2xl lg:text-7xl">
+          <div className="mx-auto max-w-[1200px] px-6 text-center lg:px-12 pb-10 lg:pb-16">
+            <h1 className="mb-6 font-display text-4xl font-bold text-white drop-shadow-2xl sm:text-5xl lg:text-7xl">
               About Us
             </h1>
             <div className="mx-auto max-w-4xl">
-              <p className="mb-8 font-heading text-2xl font-light leading-relaxed text-white drop-shadow-lg lg:text-3xl">
+              <p className="mb-8 font-heading text-xl font-light leading-relaxed text-white drop-shadow-lg sm:text-2xl lg:text-3xl">
                 H-TOWN RAGS WAS BORN OUT OF A LOVE OF VINTAGE CLOTHING, MUSIC AND CULTURE, COMMUNITY IS AT THE HEART OF EVERYTHING WE DO.
               </p>
             </div>

@@ -3,26 +3,26 @@ import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <section className="relative h-[600px] w-full overflow-hidden lg:h-[80vh]">
+    <section className="relative h-[calc(100vh-5rem)] min-h-[600px] w-full overflow-hidden lg:h-[calc(100vh-6rem)] lg:min-h-[700px]">
       <Image
         src="/images/home/hero-banner.jpg"
         alt="H-Town Rags Vintage Clothing Collection"
         fill
-        className="object-cover"
+        className="object-cover object-center"
         priority
         quality={90}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/50" />
       
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="mx-auto max-w-[1920px] px-6 text-center lg:px-12">
-          <h1 className="mb-4 font-display text-5xl font-bold text-white drop-shadow-2xl lg:text-7xl">
+        <div className="mx-auto max-w-[1920px] px-6 text-center lg:px-12 pb-10 lg:pb-16">
+          <h1 className="mb-4 font-display text-4xl font-bold text-white drop-shadow-2xl sm:text-5xl lg:text-7xl">
             H-Town Rags
           </h1>
-          <p className="mb-4 font-heading text-xl font-light text-white drop-shadow-lg lg:text-2xl">
+          <p className="mb-4 font-heading text-lg font-light text-white drop-shadow-lg sm:text-xl lg:text-2xl">
             THE HEART OF VINTAGE & SECOND-HAND CLOTHING
           </p>
-          <p className="mb-8 font-body text-lg text-white/90 drop-shadow-lg">
+          <p className="mb-8 font-body text-base text-white/90 drop-shadow-lg sm:text-lg">
             Hand-picked vintage clothing from across the globe
           </p>
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
