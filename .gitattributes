@@ -1,0 +1,26 @@
+# Normalise line endings across all platforms.
+# Git stores text files with LF; LF is also enforced in the working tree,
+# so checkouts are deterministic regardless of each machine's core.autocrlf.
+* text=auto eol=lf
+
+# Windows-only scripts must keep CRLF to run correctly.
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.ps1   text eol=crlf
+
+# Binary assets - never converted or diffed as text.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.avif  binary
+*.ico   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.otf   binary
+*.eot   binary
+*.pdf   binary
+*.mp4   binary
+*.webm  binary
